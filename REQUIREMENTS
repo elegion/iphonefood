@@ -1,0 +1,12 @@
+# To fetch packages:
+# 1. install pip http://pypi.python.org/pypi/pip
+# 2. pip install virtualenv
+# 3. cd <project_dir>
+# 4a. pip -E venv install -sr external_apps.txt
+# 4b. pip install -sr external_apps.txt
+# ...
+# 5. vigoda
+
+Django==1.3
+south==0.7
+lxml
